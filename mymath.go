@@ -1,6 +1,5 @@
 package mymath
 
-// Пример кода для иллюстрации задачи
 import "math"
 
 func Sqrt(x float64) float64 {
@@ -20,4 +19,16 @@ func Pow(x, y float64) float64 {
 }
 func Ceil(x float64) float64 {
 	return math.Ceil(x)
+}
+func Abs(x float64) float64 {
+	return math.Abs(x)
+}
+func Acos(x float64) float64 {
+	return math.Acos(x)
+}
+func Acosh(x float64) float64 {
+	return math.Acosh(x)
+}
+func Asin(x float64) float64 {
+	return math.Asin(x)
 }
