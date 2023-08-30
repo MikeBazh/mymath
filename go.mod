@@ -1,6 +1,3 @@
-module github.com/MikeBazh/mymath
+module mymath
 
 go 1.20
-
-
-
